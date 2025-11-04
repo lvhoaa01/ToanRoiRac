@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+int dem = 0;
+
 int isSafe(vector<vector<int>>& mat, int row, int col) {
     int n = mat.size();
     int i, j;
@@ -69,7 +71,9 @@ int main() {
         for(auto i: ans){
             cout << i << " ";
         }
+        dem++;
         cout << endl;
     }
+    cout << dem;
     return 0;
 }
