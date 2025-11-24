@@ -12,7 +12,7 @@ void In(){
 	cout << endl;
 }
 
-int Try(int i){
+void Try(int i){
 	for(int j = 1; j <= n; j++){
 		if(!used[j]){
 			used[j] = true;
